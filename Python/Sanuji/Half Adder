@@ -1,0 +1,23 @@
+def half_adder(bit1, bit2):
+    # XOR gate for sum
+    sum_bit = bit1 ^ bit2
+
+    # AND gate for carry
+    carry_bit = bit1 & bit2
+
+    return sum_bit, carry_bit
+
+# Get input bits from the user
+bit1 = int(input("Enter the first bit (0 or 1): "))
+bit2 = int(input("Enter the second bit (0 or 1): "))
+
+# Check if the input is valid
+if bit1 not in (0, 1) or bit2 not in (0, 1):
+    print("Invalid input. Please enter 0 or 1 for bits.")
+else:
+    # Calculate the result using the half adder
+    sum_result, carry_result = half_adder(bit1, bit2)
+
+    # Display the result
+    print(f"Sum: {sum_result}")
+    print(f"Carry: {carry_result}")
