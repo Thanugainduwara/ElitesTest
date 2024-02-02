@@ -1,4 +1,4 @@
-x = int(input("Enter Marks :"))
+x = int(input("Enter Your Marks:"))
 if x>101 and x>=0:
     if x>=75:
         print("A")
