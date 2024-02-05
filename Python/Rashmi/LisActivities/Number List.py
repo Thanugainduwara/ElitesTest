@@ -20,4 +20,4 @@ list2 = [5,10,15,20,25,30]
 
 for i in range (len(list2)):
     print(list2[i])
-
+    
