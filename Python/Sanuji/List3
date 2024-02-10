@@ -1,0 +1,12 @@
+mul5 = [5,10,15,20,25,30]
+# #mul5.append(35)
+# print(mul5)
+# mul5.insert(5,40)
+# print(mul5)
+# mul5.pop()
+# print(mul5)
+# mul5.remove(15)
+# print(mul5)
+mul5[5] = 35
+print(mul5[5])
+print(mul5)
