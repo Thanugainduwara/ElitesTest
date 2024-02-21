@@ -3,8 +3,8 @@ import os
 
 def overlay_qr_codes(folder, output_folder, num_codes):
     # Define A4 dimensions in pixels (assuming 300 dpi)
-    a4_width = 2480.0  # pixels
-    a4_height = 3508.0  # pixels
+    a4_width = 3508.0  # pixels
+    a4_height =  2480.0# pixels
 
     # Calculate the size of each image to fit 3x4 grid on A4 page
     image_width = a4_width / 3.0
