@@ -1,2 +1,2 @@
 # import Cal
-from Functions import add
+from Cal import add
