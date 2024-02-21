@@ -1,0 +1,6 @@
+import random
+
+
+emp_list = [random.randint(10, 20) for i in range(10)]
+print("Random list", emp_list)
+

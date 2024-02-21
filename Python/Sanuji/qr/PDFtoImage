@@ -1,0 +1,13 @@
+from pdf2image import convert_from_path
+
+# Path to the PDF file
+pdf_path = '/home/sanuji/ElitesTest/Python/ElitesTest-1/Python/Sanuji/qr/qr.pdf'
+
+# Convert PDF to a list of PIL Image objects
+images = convert_from_path(pdf_path)
+
+# Iterate through each page and save it as an image
+for i, image in enumerate(images):
+    image_path = f'page_{i + 1}.jpg'  # Change the extension as needed
+    image.save(image_path, 'JPEG')  # Save as JPEG or any other image format
+    print(f'Page {i + 1} saved as {image_path}')

@@ -1,0 +1,6 @@
+from reportlab.pdfgen import canvas
+from reportlab_qr_code import qr_draw
+
+c = canvas.Canvas("out.pdf")
+qr_draw(c, "Hello world", x="1cm", y="1cm", size="10cm")
+
