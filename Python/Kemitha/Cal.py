@@ -29,7 +29,7 @@ def calculator():
             print("Invalid choice. Please try again.")
             continue
 
-        # Get operands from user
+        # Get inputs from user
         a = int(input("Enter first number: "))
         print(a)
         b = int(input("Enter second number: "))
