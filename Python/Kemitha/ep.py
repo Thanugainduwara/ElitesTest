@@ -3,4 +3,4 @@ while x>-1:
     print(x)
     x=int(input("enter a number"))
 else:
-    print("End")
+    print("No ")
